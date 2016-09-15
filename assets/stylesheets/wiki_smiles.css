@@ -1,0 +1,64 @@
+/* Here added styles for smiles */
+
+.jstb_smile {
+	background-image: url(../images/smile.png);
+}
+.jstb_sad {
+	background-image: url(../images/sad.png);
+}
+.jstb_tongue {
+	background-image: url(../images/tongue.png);
+}
+.jstb_biggrin {
+	background-image: url(../images/biggrin.png);
+}
+.jstb_wink {
+	background-image: url(../images/wink.png);
+}
+.jstb_check {
+	background-image: url(../images/check.png);
+}
+.jstb_warn {
+	background-image: url(../images/warning.png);
+}
+.jstb_add {
+	background-image: url(../images/add.png);
+}
+
+.jstt_smiles #smiles_img {
+	background-color:#F7F7F7;
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	border:1px solid #DDDDDD;
+	height:22px;
+	margin-right:6px;
+	width:22px;
+}
+
+.jstt_smiles #smiles_img:hover {
+	border-color:#000000;
+}
+
+.jstt_smiles #group_of_smiles {
+	background-color:#F7F7F7;
+	border:1px solid #507AAA;
+	display:none;
+	position:absolute;
+	width:210px;
+}
+
+.jstt_smiles a:hover  #group_of_smiles{
+	display:block;
+	z-index:80;
+}
+
+.jstt_smiles {
+	float:left;
+}
+
+.jstElements button {
+	float:left;
+}
+.jstElements, .jstSpacer {
+	float:left;
+}
